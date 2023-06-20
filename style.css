@@ -1,0 +1,28 @@
+body{
+    background-image: url("img1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  /* Estilos para los elementos del formulario */
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
